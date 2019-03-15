@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 327229,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstest.beforeScenarioStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 196761,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstest.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 150920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstest.beforeSecond()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "SCEANRIO 2",
+        "description": "",
+        "id": "testing-of-scenarios-for-cumcumber;sceanrio-2",
+        "after": [
+          {
+            "result": {
+              "duration": 643526,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstest.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 420319,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookstest.afterScenarioFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 184649599,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "this is teh first step for scenario2",
+            "match": {
+              "location": "testscenario1.this_is_teh_first_step_for_scenario2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 297961,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "we use the second stpe for scenario2",
+            "match": {
+              "location": "testscenario1.we_use_the_second_stpe_for_scenario2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107901,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "we get the third step for scenario2",
+            "match": {
+              "location": "testscenario1.we_get_the_third_step_for_scenario2()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Second"
+          },
+          {
+            "line": 10,
+            "name": "@smoketest1"
+          }
+        ]
+      }
+    ],
+    "name": "Testing of scenarios for cumcumber",
+    "description": "",
+    "id": "testing-of-scenarios-for-cumcumber",
+    "keyword": "Feature",
+    "uri": "test1.feature"
+  }
+]

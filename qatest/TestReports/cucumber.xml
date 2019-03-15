@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.186794">
+<testcase classname="Testing of scenarios for cumcumber" name="SCEANRIO 2" time="0.186794">
+<system-out><![CDATA[Given this is teh first step for scenario2..................................passed
+When we use the second stpe for scenario2...................................passed
+Then we get the third step for scenario2....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
